@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="tests">
+<parameter name="os" value="mac"/>
+<parameter name="browser" value="chrome"/>
+<test thread-count="5" name="chrome test">
+<classes>
+<class name="Testcase.TC_001_Signuptestcases"/>
+
+<!--<class name="Testcases.TC_003_login"/>-->
+</classes>
+</test><!--  Test  -->
+</suite><!--  Suite  -->
+
+
+https://jagermaester-stag.hestawork.com/
